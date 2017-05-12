@@ -5,6 +5,7 @@ import oop.les09.MyList;
 // De klasse MyLinkedList verbindt zich ertoe om alle methoden van MyList (interface) te implemteren.
 // MyLinkedList implementeert een lijst-structuur door middel van de hulp-klasse Node.
 // Elke Node bevat één element, de nodes worden dmv referenties aan alkaar gehangen (zoals een slinger).
+// (code by Bernard Samyn <howest.be>)
 public class MyLinkedList implements MyList {
     
     private Node head;
